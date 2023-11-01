@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css'
+// import './App.css'
+import Home from './Pages/Home/Home';
 
 
 
 function App() {
   return (
 		<div className='App'>
-			<header className='header'>
+			<Home />
+			{/* <header className='header'>
 				<div className='container'>
 					<div className='header__title'>
 						<img src='../img/burger.svg' alt='burger' className='burger' />
@@ -84,8 +86,6 @@ function App() {
 					<div className='card'></div>
 					<div className='card'></div>
 					<div className='card'></div>
-					{/* <div className='card'></div> */}
-					{/* <div className='card'></div> */}
 				</div>
 			</div>
 			<div className='reviews'>
@@ -165,7 +165,7 @@ function App() {
 				</div>
 			</div>
 			<div className='suppliers'></div>
-			<footer className='footer'></footer>
+			<footer className='footer'></footer> */} 
 		</div>
 	)
 }
