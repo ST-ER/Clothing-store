@@ -1,0 +1,29 @@
+/* ---------- questions ---------- */
+.questions{
+    margin-top: 150px;
+    height: 497px;
+    display: flex;
+    justify-content: center;
+}
+.questions__title{
+    display: flex;
+}
+.questions__title div{
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
+}
+.questions__title label{
+    margin-top: 35px;
+    margin-left: 20px;
+
+    color: #514A7E;
+    font-family: Bad Script;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%; /* 34.922px */    
+}

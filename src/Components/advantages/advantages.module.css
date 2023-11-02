@@ -1,0 +1,46 @@
+/* ---------- advantages ---------- */
+.advantages{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.advantages__title{
+    height: 40px;
+    color: #121212;
+
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+}
+.advantages__body{
+    padding-top: 92px;
+    height: 278px;
+    width: 1029px;
+}
+
+.body__line{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.body__line2{
+    padding-top: 98px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.advantages__item{
+    width: 175px;
+    height: 26px;
+
+    color: #7D7D7D;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+}
