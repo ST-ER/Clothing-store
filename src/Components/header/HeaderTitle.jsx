@@ -1,37 +1,29 @@
 import React, { useState } from 'react';
-// import s from '../../Pages/Home/Home.module.css'
 import h from './Header.module.css'
+import BurgerMenu from './BurgerMenu';
+import Search from './Search';
+import Avatar from './Avatar';
+import Heart from './Heart';
+import ShoppingBag from './ShoppingBag';
 
-
-
-
-const HeaderTitle = () => {
-    return (
-			<div className={h.header__title}>
-				<img
-					src='../img/burger.svg'
-					alt='burger'
-					className={h.burger}
-				/>
-
-				
-				<div>
-					<img
-						src='../img/search.svg'
-						alt='search'
-						className={h.search__icon}
-					/>
-					<input className={h.input__header} placeholder='Поиск' />
-					<img src='../img/avatar.svg' alt='avatar' className={h.avatar} />
-					<img src='../img/heart.svg' alt='heart' className={h.heart} />
-					<img
-						src='../img/shopping-bag.svg'
-						alt='shopping-bag'
-						className={h.shopping__bag}
-					/>
-				</div>
+const HeaderTitle = ({ isOpen, setIsOpen, isAvatar, setIsAvatar }) => {
+	const BurgerClick = () => {
+		setIsOpen(!isOpen)
+	}
+	const AvatarClick = () => {
+		setIsAvatar(!isAvatar)
+	}
+	return (
+		<div className={h.header__title}>
+			<BurgerMenu BurgerClick={BurgerClick} isOpen={isOpen} />
+			<div>
+				<Search />
+				<Avatar isAvatar={isAvatar} AvatarClick={AvatarClick} />
+				<Heart />
+				<ShoppingBag />
 			</div>
-		)
-};
+		</div>
+	)
+}
 
 export default HeaderTitle;

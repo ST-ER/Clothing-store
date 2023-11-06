@@ -1,21 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* ---------- Header ----------- */
 .header{
-    /* GPT */
     margin-top: 49px;
     display: flex;
     justify-content: center;
 }
 .container{
-    /* background: #FFFDF5; */
-    /* width: 1170px; */
-    min-width: 1170px;
-    /* margin: 0px auto; *//*не работает!*/
+    width: 1170px;
+    height: 802px;
 }
-
-
-
 .header__title{
-    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +20,41 @@
 .burger{
     cursor: pointer;
 }
+.isBurger{
+    position: absolute;
+    top: 49px;
+    left: 135px;
+
+
+    width: 278px;
+    height: 802px;
+    /* background: #afacac; */
+    background: #121212;
+}
+ ul {
+    margin-left: 18px;
+}
+li{
+    list-style: none;
+    color: #FFFDF5;
+    margin-bottom: 20px;
+}
+
+/* isAvatar */
+.isAvatar{
+    position: absolute;
+    top: 97px;
+    left: 1094px;
+
+
+    width: 211px;
+    height: 239px;
+    background: #FFFDF5;    
+}
+
+
+
+
 .input__header{
     margin-left: 19px;
     width: 308px;
@@ -36,10 +68,10 @@
 .heart{
     margin-left: 15px;
 }
-.shopping-bag{
+.shopping__bag{
     margin-left: 15px;
 }
-
+/* ---------------------- */
 
 .header__content{
     margin-top: 50px;
