@@ -11,7 +11,10 @@ const Avatar = ({ isAvatar, AvatarClick }) => {
 				className={h.avatar}
 				onClick={AvatarClick}
 			/>
-			{isAvatar && <div className={h.isAvatar}></div>}
+			{isAvatar && <div className={h.isAvatar}>
+				<div></div>
+				<button>Войти</button>
+			</div>}
 		</>
 	)
 }

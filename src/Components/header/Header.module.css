@@ -51,7 +51,28 @@ li{
     height: 239px;
     background: #FFFDF5;    
 }
+.isAvatar div{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
 
+    background: #C4C4C4;
+
+    margin-top: 18px;
+    margin-left: 86px;
+}
+.isAvatar button{
+    width: 109px;
+    height: 26px;
+
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+
+    margin-left: 51px;
+    margin-top: 15px;
+
+    color: #FFFDF5;
+}
 
 
 
