@@ -1,0 +1,105 @@
+.formAuth{
+    margin-left: 269.5px;
+    width: 901px;
+    height: 463px;
+
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    margin-top: 137px;
+    margin-left: 113px;
+
+    color: #121212;
+
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;     
+}
+.email{
+    background-color: #FFFDF5;
+
+    width: 372px;
+    margin-left: 113px;
+    margin-top: 60px;
+
+    border: none;
+    border-bottom: 1px solid #7D7D7D;
+    outline: none;
+    box-shadow: none;
+
+    color: #7D7D7D;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+}
+.password{
+    background-color: #FFFDF5;
+    width: 372px;
+    margin-left: 113px;
+    margin-top: 34px;
+
+    border: none;
+    border-bottom: 1px solid #7D7D7D;
+    outline: none;
+    box-shadow: none;
+
+    color: #7D7D7D;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+}
+.btn1{
+    margin-left: 113px;
+    margin-top: 23px;
+
+    color: #514A7E;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+}
+.divBtn{
+    display: flex;
+    margin-left: 113px;
+    margin-top: 25px;
+}
+.btn2{
+    width: 148px;
+    height: 37px;
+    color: #FFFDF5;
+
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.btn3{
+    width: 149.28px;
+    height: 37px;
+    margin-left: 46px;
+
+    border: 0.5px solid #514A7E;
+
+    color: #121212;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

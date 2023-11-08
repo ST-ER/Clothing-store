@@ -31,14 +31,23 @@
     /* background: #afacac; */
     background: #121212;
 }
- ul {
+.ul {
     margin-left: 18px;
 }
-li{
+.li{
     list-style: none;
-    color: #FFFDF5;
     margin-bottom: 20px;
+    color: #FFFDF5;
+
+    transition: transform 0.2s ease-in-out;
 }
+.li:hover{
+    transform: scale(1.1);
+}
+/* a{
+   text-decoration: none; 
+   color: #FFFDF5;
+} */
 
 /* isAvatar */
 .isAvatar{
@@ -140,7 +149,10 @@ li{
     margin-left: 487px;
     width: 193px;
     height: 193px;
-    background-image: url('../../../public/img/btn.png');
+    background-image: url('../../../public/img/catalog.svg');
     background-size: cover;
 
+}
+.catalog:hover{
+    background-image: url('../../../public/img/catalog1.svg');
 }

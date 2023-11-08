@@ -1,8 +1,10 @@
 import React from 'react';
 import h from './Header.module.css'
+import { useNavigate } from 'react-router-dom'
 
 
 const Avatar = ({ isAvatar, AvatarClick }) => {
+	const navigate = useNavigate()
 	return (
 		<>
 			<img
@@ -13,7 +15,7 @@ const Avatar = ({ isAvatar, AvatarClick }) => {
 			/>
 			{isAvatar && <div className={h.isAvatar}>
 				<div></div>
-				<button>Войти</button>
+				<button onClick={() => {navigate('/auth')}}>Войти</button>
 			</div>}
 		</>
 	)

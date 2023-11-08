@@ -1,3 +1,30 @@
+.E4{
+    position: absolute;
+    top:1148px;
+    left:243px;
+    opacity: 0.5;
+}
+.E41{
+    position: absolute;
+    top:1248px;
+    left:972px;
+    opacity: 0.5;
+
+}
+.E6{
+    position: absolute;
+    top:1101px;
+    left:864px;
+    opacity: 0.5;
+
+}
+.E61{
+    position: absolute;
+    top:1272px;
+    left:428px;
+    opacity: 0.5;
+
+}
 /* ---------- advantages ---------- */
 .advantages{
     display: flex;
