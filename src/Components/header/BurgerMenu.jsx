@@ -7,7 +7,7 @@ const BurgerMenu = ({ BurgerClick, isOpen }) => {
 	return (
 		<>
 			<img
-				src='../img/burger.svg'
+				src='../img/icon/burger.svg'
 				alt='burger'
 				className={h.burger}
 				onClick={BurgerClick}

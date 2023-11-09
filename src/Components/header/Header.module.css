@@ -149,10 +149,13 @@
     margin-left: 487px;
     width: 193px;
     height: 193px;
-    background-image: url('../../../public/img/catalog.svg');
+    background-image: url('../../../public/img/button/catalog.svg');
     background-size: cover;
 
 }
 .catalog:hover{
-    background-image: url('../../../public/img/catalog1.svg');
+    /* margin-left: 445px;
+    width: 275px;
+    height: 275px; */
+    background-image: url('../../../public/img/button/catalog1.svg');
 }

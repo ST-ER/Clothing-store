@@ -8,7 +8,7 @@ const Avatar = ({ isAvatar, AvatarClick }) => {
 	return (
 		<>
 			<img
-				src='../img/avatar.svg'
+				src='../img/icon/avatar.svg'
 				alt='avatar'
 				className={h.avatar}
 				onClick={AvatarClick}

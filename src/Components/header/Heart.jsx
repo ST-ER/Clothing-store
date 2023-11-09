@@ -5,7 +5,7 @@ import h from './Header.module.css'
 const Heart = () => {
     return (
 			<>
-				<img src='../img/heart.svg' alt='heart' className={h.heart} />
+				<img src='../img/icon/heart.svg' alt='heart' className={h.heart} />
 			</>
 		)
 };

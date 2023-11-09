@@ -5,7 +5,7 @@ import h from './Header.module.css'
 const Search = () => {
     return (
 			<>
-				<img src='../img/search.svg' alt='search' className={h.search__icon} />
+				<img src='../img/icon/search.svg' alt='search' className={h.search__icon} />
 				<input className={h.input__header} placeholder='Поиск' />
 			</>
 		)

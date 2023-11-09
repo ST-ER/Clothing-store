@@ -6,7 +6,7 @@ const ShoppingBag = () => {
     return (
 			<>
 				<img
-					src='../img/shopping-bag.svg'
+					src='../img/icon/shoppingBag.svg'
 					alt='shopping-bag'
 					className={h.shopping__bag}
 				/>
