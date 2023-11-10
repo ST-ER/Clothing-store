@@ -4,15 +4,19 @@ import s from '../../Pages/Home/Home.module.css'
 
 const Questions = () => {
     return (
-			<div className={s.questions}>
+			<section className={s.questions}>
 				<div className={s.container}>
 					<div className={s.questions__title}>
 						<div>Часто задаваемые вопросы</div>
 						<label>FAQ</label>
 					</div>
-					<div className={s.questions__body}></div>
+					<div className={s.questions__body}>
+						{/* <select name="1" id="1">
+							<option value="">2</option>
+						</select> */}
+					</div>
 				</div>
-			</div>
+			</section>
 		)
 };
 

@@ -4,15 +4,15 @@ import a from '../advantages/advantages.module.css'
 
 const Advantages = () => {
     return (
-			<div className={a.advantages}>
+			<section className={a.advantages}>
 				<div className={a.container}>
 					<div className={a.advantages__title}>Почему выбирают нас?</div>
 
 					<div className={a.advantages__body}>
-						<img src='../img/Ellipse 4.svg' alt='E4' className={a.E4} />
-						<img src='../img/Ellipse 6.svg' alt='E4' className={a.E6} />
-						<img src='../img/Ellipse 4.svg' alt='E4' className={a.E41} />
-						<img src='../img/Ellipse 6.svg' alt='E4' className={a.E61} />
+						<img src='../img/ellipse/Ellipse 4.svg' alt='E4' className={a.E4} />
+						<img src='../img/ellipse/Ellipse 6.svg' alt='E4' className={a.E6} />
+						<img src='../img/ellipse/Ellipse 4.svg' alt='E4' className={a.E41} />
+						<img src='../img/ellipse/Ellipse 6.svg' alt='E4' className={a.E61} />
 						<div className={a.body__line}>
 							<div className={a.advantages__item}>
 								Скидки постоянным клиентам от 5%
@@ -38,7 +38,7 @@ const Advantages = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		)
 };
 

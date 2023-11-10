@@ -1,0 +1,40 @@
+.footer{
+    margin-top: 150px;
+    color: #FFFDF5;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 81.65px;
+    display: grid;
+    grid-template-columns: 124px 124px 250px 202px;
+    column-gap: 97px;
+    /* width: 1440px;
+    height: 373.401px; */
+    flex-shrink: 0;
+    background: #514A7E;
+}
+.h3{
+    margin-bottom: 19.91px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ul{
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ul li{
+    margin-bottom: 9.96px;
+    list-style-type: none;
+}
+.ul label{
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

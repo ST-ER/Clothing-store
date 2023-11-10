@@ -1,0 +1,7 @@
+.btn{
+    border: none;
+    background-color: transparent;
+}
+.btn img:hover{
+    /* background-image: url('../../../public/img/button/podrobA.svg'); */
+}

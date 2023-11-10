@@ -13,10 +13,29 @@ const Avatar = ({ isAvatar, AvatarClick }) => {
 				className={h.avatar}
 				onClick={AvatarClick}
 			/>
-			{isAvatar && <div className={h.isAvatar}>
-				<div></div>
-				<button onClick={() => {navigate('/auth')}}>Войти</button>
-			</div>}
+			{isAvatar && (
+				<div className={h.isAvatar}>
+					<div className={h.av}></div>
+					<button
+						onClick={() => {
+							navigate('/auth')
+						}}
+					>
+						Войти
+					</button>
+					<div>
+						<div>Корзина</div>
+					</div>
+
+					<hr />
+					<div>
+						<div>Избранное</div>
+					</div>
+					<div>
+						<div>Просмотренные</div>
+					</div>
+				</div>
+			)}
 		</>
 	)
 }

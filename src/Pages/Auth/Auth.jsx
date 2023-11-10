@@ -27,12 +27,17 @@ const Authorization = () => {
 				onChange={event => setPassword(event.target.value)}
 				placeholder='Пароль'
 			/>
-			<NavLink to='/' className={a.btn1}>Не помню пароль</NavLink>
+			<NavLink to='/' className={a.btn1}>
+				Не помню пароль
+			</NavLink>
 			<div className={a.divBtn}>
 				<button className={a.btn2} type='submit'>
 					Войти в кабинет
 				</button>
-				<button className={a.btn3}>Регистрация</button>
+				{/* <button className={a.btn3}>Регистрация</button> */}
+				<button className={a.btn3}>
+					<NavLink to='/'>Регистрация</NavLink>
+				</button>
 			</div>
 		</form>
 	)

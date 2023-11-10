@@ -4,7 +4,7 @@ import s from '../../Pages/Home/Home.module.css'
 
 const Cooperation = () => {
     return (
-			<div className={s.cooperation}>
+			<section className={s.cooperation}>
 				<div className={s.container}>
 					<div className={s.container__title}>Сотрудничество с нами</div>
 					<div className={s.container__body}>
@@ -49,7 +49,7 @@ const Cooperation = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		)
 };
 

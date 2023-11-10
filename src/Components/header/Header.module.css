@@ -37,12 +37,17 @@
 .li{
     list-style: none;
     margin-bottom: 20px;
-    color: #FFFDF5;
 
     transition: transform 0.2s ease-in-out;
 }
 .li:hover{
     transform: scale(1.1);
+}
+.nl{
+    text-decoration: none;
+    color: #FFFDF5;
+
+
 }
 /* a{
    text-decoration: none; 
@@ -60,7 +65,7 @@
     height: 239px;
     background: #FFFDF5;    
 }
-.isAvatar div{
+.av{
     width: 39px;
     height: 39px;
     border-radius: 50%;

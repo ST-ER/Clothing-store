@@ -1,0 +1,15 @@
+.suppliers{
+    margin-top: 150px;
+    width: 971px;
+    height: 411.239px;
+    background: #514A7E;
+}
+form{
+    width: 714px;
+    height: 332.576px;
+    background: #FFFDF5;
+    margin-top: 40px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+}

@@ -21,7 +21,7 @@
     height: 326px;
     /* background: #514A7E; */
 }
-.tutu{
+.reviewsBox{
     display: flex;
 }
 .reviews__body__item{
@@ -31,7 +31,17 @@
     height: 204px;
 
     background: #FFFDF5;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);    
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);  
+    display: flex;  
+}
+.img{
+    margin-left: 24px;
+    margin-top: 52px;
+    width: 94px;
+    height: 94px;
+}
+.nameDate{
+    display: flex;
 }
 .reviews button{
     margin-top: 25px;
